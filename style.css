@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto;
+  background-image: url("resources/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .reloj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  width: 300px;
+  height: 100px;
+  margin: 200px auto;
+  padding: 20px;
+}
+
+body .reloj .caja {
+  width: 30px;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
