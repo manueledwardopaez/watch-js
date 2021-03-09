@@ -5,7 +5,7 @@
 
 body {
   font-family: Roboto;
-  background-image: url("resources/fondo.jpg");
+  background-image: repeating-linear-gradient(45deg, #cf2cf8, #40c7e9, #1fdf79);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -37,5 +37,10 @@ body .reloj .caja {
   margin: 5px;
   border: 1px solid black;
   border-radius: 10px;
+}
+
+body .reloj .meridian {
+  padding: 20px;
+  padding-right: 28px;
 }
 /*# sourceMappingURL=style.css.map */
